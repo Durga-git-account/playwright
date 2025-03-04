@@ -1,0 +1,76 @@
+{
+    "xpath":{
+        "username": "//input[@autofocus and @formcontrolname='loginId']",
+        "password": "//input[@id='password']",
+        "signin": "//button[text()='Login']",
+        "login":"//div[@class='container-fluid table-block']",
+        "stmanagement": "//span[text()= 'Student & Applications']"
+    },
+
+    "stcreation":
+    {
+        "create": "//span[text()= ' + Create student account ']",
+        "Nswpastyes":"//button[@id='mat-button-toggle-4-button']",
+        "stnumber":"//input[@id='studentNumber']",
+        "NSWpaststd": "//button[@id='mat-button-toggle-5-button']",
+        "givenname" :"//input[@id='givenName']",
+        "familyname": "//input[@id='familyName']",
+        "calendericon": "//button[@aria-label='Open calendar']",
+        "month":"//button[@aria-label='Choose month and year']",
+        "gender": "//span[text()='Male']",
+        "countryofbirth": "//div[@id='mat-select-value-19']",
+        "countryname": "//span[text()=' Anguilla ']",
+        "nationality": "//mat-select[@id='nationalityCountryId']",
+        "nationalityname":"//span[text()=' Canada ']",
+        "gdpr":"//span[text()=' Italy ']",
+        "passport": "//button[@id='mat-button-toggle-9-button']",
+        "uploadfile":"//input[@type='file']",
+        "program": "//button[@id='mat-button-toggle-11-button']",
+        "createstudent": "//button[text()='Create student']",
+        "success":"//button[text()='Proceed to create parent']",
+        "parentpage":"//span[text()='Create Parent Account']"     
+        
+     },
+
+     "ptcreation":{
+        "oneparentcheckbox":"//mat-checkbox[@formcontrolname='hasOnlyOneParent']",
+        "relation":"//mat-select[@id='relationshipToStudent']",
+        "parent1":"//span[text()=' Father ']",
+        "p1givenname":"//input[@aria-label='Given Name']",
+        "p1familyname":"//input[@aria-label='Family Name']",
+        "p1dob":"//input[@id='dateOfBirth']",
+        "p1gender": "//mat-button-toggle-group[@id='gender']//button[span[text()='Male']]",
+        "p1countryofbirth":"//mat-select[@id='countryOfBirthId']", 
+        "country":"//mat-option/span[text()=' Canada ']",
+        "p1currentpassport":"//button[@aria-pressed='false']/span[text()='No']",
+        "p1uploadfile":"//input[@type='file']",
+        "p1mobilecountrycode":"//mat-select[@id='countrymobPhoneCountryCodeOfBirthId']",
+        "countrycode":"//mat-option/span[text()=' Canada (+1) ']",
+        "p1mobile":"//input[@id='mobPhoneNo']",
+        "p1email": "//input[@id='email']",
+        "p1verifyemail":"//input[@id='verifyEmail']",
+        "p2relation":"//mat-select[@id='relationshipToStudentSecondParent']",
+        "parent2":"//span[text()=' Mother ']",
+        "p2givenname":"//input[@id='givenNameSecondParent']",
+        "p2familyname":"//input[@id='familyNameSecondParent']",
+        "p2dob": "//input[@formcontrolname='dateOfBirthSecondParent']",
+        "p2gender":"(//mat-button-toggle[@role='presentation']/button[span[text()='Female']])[2]",
+        "p2countryofbirth":"//mat-select[@id='countryOfBirthIdSecondParent']",
+        "p2currentpassport":"//button[@aria-pressed='false']/span[text()='No']",
+        "p2uploadfile":"//input[@type='file']",
+        "p2mobilecountrycode":"//mat-select[@id='countrymobPhoneCountryCodeOfBirthIdSecondParent']",
+        "p2mobile": "//input[@id='mobPhoneNoSecondParent']",
+        "p2email":"//input[@id='emailSecondParent']",
+        "p2verifyemail": "//input[@id='verifyEmailSecondParent']",
+        "gdprfile":"//input[@type='file']",
+        "parents":"//mat-select[@id='parentToLinkStudent']",
+        "Nominateparent":"//mat-option[@role='option'][1]",
+        "createparent":"//input[@value='Create parent']",
+        "successpopup": "//h1[@id='dialogtitle']",
+        "clickyes":"//button[text()='Yes']",
+        "successno":" //button[text()='No']",
+        "createnewapplication ":"(//span[@class='mat-button-wrapper'])[3]",
+        "createdstudent":"//div[@ng-star-inserted]"
+     }   
+
+}

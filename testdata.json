@@ -1,0 +1,28 @@
+{
+    "Login":{
+        "URL": "https://agency.test.det.nsw.edu.au/#/agent-login",
+        "username": "ragava.lawrence",
+        "password": "Welcome@123"
+    },
+    "stcreate":{
+        "studentnum": null,
+        "givenName":"Tester ",
+        "familyName" :"DD",
+        "Dyear": ".mat-calendar-body-cell-content:has-text('2013')",
+        "Dmonth": ".mat-calendar-body-cell-content.mat-focus-indicator:has-text('sep')",
+        "Ddate": ".mat-calendar-body-cell-content:has-text('20')"
+    },
+    "ptcreate":{
+        "p1givenname":"Robert",
+        "p1familyname":"franzis",
+        "p1dob":"20/05/1998",
+        "p1mobile": "135465312",
+        "p1email": "Robertfran@getnada.com",
+        "p2givenname":"Hernzons",
+        "p2familyname":"vernia",
+        "p2dob": "15/09/1999",
+        "p2mobile": "65421321",
+        "p2email": "Hernzons@getnada.com",
+        "gotostvisa":"Yes"
+    }
+}
